@@ -1,0 +1,11 @@
+npm create vite@latest . -- --template react-ts
+npm install
+npm install @mui/material @emotion/react @emotion/styled @mui/icons-material @fontsource/roboto
+MUI
+tsconfig.json tweaks
+npm i -D vite-tsconfig-paths
+vite.config.ts tweaks
+npm i -D eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-react-refresh prettier eslint-config-prettier eslint-plugin-simple-import-sort
+create .eslintrc.cjs
+create .prettierrc
+change the linting script to only include ts and tsx files in src (package.json)
